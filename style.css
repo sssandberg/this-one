@@ -1,13 +1,21 @@
 @charset "UTF-8";
-	body {
+	.body {
     padding: 10%;
     background-color: #FBECD0;
-    font-family:
-    margin-top: 76px;
     color: #26243E;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-size: large;
+		margin-right: 0;
+		margin-left: 0;
+		margin-bottom: 0;
 	}
+
+body {margin: 0;}
+
+.color {
+	background-color: #F5B4C0;
+	}
+
 	h1 {
     color: #CE2C38;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -57,7 +65,7 @@
 	display: flex;
 	justify-content: center}
 
-}
+
 	
 	.left {float:left
 ;padding-right: 20px;
@@ -68,6 +76,11 @@
     background-color: #F5B4C0;
     margin: 0;
     background-size: cover;
+    width: 100%;
+    padding-left: 10%;
+;   padding-right: 10%;
+    padding-top: 50px;
+	padding-bottom: 50px;
 	}
 	
 .bottom {
@@ -75,7 +88,7 @@
     background-color: #EDEDF6;
 	
 }
-	.listStyle1 {background-color: #;
+	.listStyle1 {
     -webkit-box-shadow: 0px 0px 129px #F5B4C0;
     box-shadow: 0px 0px 129px #F5B4C0;
 	}
